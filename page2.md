@@ -2,8 +2,6 @@
 
 The first part will focus on migrating resources to the cloud. Here are a few images of the on-prem location and the servers that will be used:
 
-![room](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/room.jpg)
-
 ## On-Premise Server Details:
 Location: San Jose, CA
 
@@ -41,7 +39,7 @@ Node D:
 
 _All node BMCs connected to SSE-X3348T 10G Ethernet Switch_
 
-![switch](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/switch.jpg)
+![switch](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/switch.png)
 
 **Server 2: Ultra 1029U-10NRT**
 
