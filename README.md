@@ -6,7 +6,7 @@ This project has multiple goals: gain experience migrating from on-premise to th
 
 For the first part of this project, I will be migrating an architecture on a _[Supermicro Server]_and rehost the services in the AWS environment.
 
-[Part 1 Details](-in-progress-Hybrid-Cloud-Project/README.md)
+[Part 1 Details](-in-progress-Hybrid-Cloud-Project/page2.md)
 
 **Part 2: Web Application Development**
 
