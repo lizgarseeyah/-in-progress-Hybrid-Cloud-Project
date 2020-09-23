@@ -52,7 +52,6 @@ _All node BMCs connected to SSE-X3348T 10G Ethernet Switch_
 
 _BMC/PXE Connected to SSE-G3648B 1G Ethernet Switch_
 
-![Image](src)
 
 ```markdown
  `Code` text
