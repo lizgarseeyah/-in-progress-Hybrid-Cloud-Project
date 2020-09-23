@@ -1,8 +1,8 @@
 # Part 1: On-Prem to Cloud Migration
 
 The first part will focus on migrating resources to the cloud. Here are a few images of the on-prem location and the servers that will be used:
-![Image](src)
-![Image](src)
+
+![highlevel-arch](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/room.png)
 
 ## On-Premise Server Details:
 Location: San Jose, CA
