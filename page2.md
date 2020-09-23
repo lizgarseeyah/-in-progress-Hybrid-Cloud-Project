@@ -2,14 +2,14 @@
 
 The first part will focus on migrating resources to the cloud. Here are a few images of the on-prem location and the servers that will be used:
 
-![highlevel-arch](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/room.png)
+![room](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/room.jpg)
 
 ## On-Premise Server Details:
 Location: San Jose, CA
 
-**Server 1:**
+**Server 1: BigTwin 2029BZ-HNR**
 
-BigTwin 2029BZ-HNR
+![server1](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/server1.jpg)
 
 Node A:
 
@@ -41,11 +41,11 @@ Node D:
 
 _All node BMCs connected to SSE-X3348T 10G Ethernet Switch_
 
-![Image](src)
+![switch](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/switch.jpg)
 
-**Server 2:**
+**Server 2: Ultra 1029U-10NRT**
 
-Ultra 1029U-10NRT
+![server2](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/server2.jpg)
 
 - OS: Ubuntu 18.04
 - CPU: 2 x Intel(r) Xeon(r) Platinum 8276 CPU @ 2.20GHz
