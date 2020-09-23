@@ -1,6 +1,6 @@
 # Part 1: On-Prem to Cloud Migration
 
-The first part will focus on migrating to the cloud. Here are a few images of the on-prem location and the servers that will be used:
+The first part will focus on migrating resources to the cloud. Here are a few images of the on-prem location and the servers that will be used:
 ![Image](src)
 ![Image](src)
 
