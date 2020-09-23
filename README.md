@@ -14,6 +14,8 @@ This second part will focus on the front-end development of the application. _tb
 
 The third part of this project is to test the web app and the network, security, and functionality of the cloud architecture. The web app will be deployed in a blue environment first, where the application, and architecture security, and operation will be tested. Once that is completed, the final step in this project is to deploy the application in the green environment and ensure the architecture and web app meet the requirements.
 
+![Image](/Hybrid-Cloud-Project/img/architecture-sketch.jpeg)
+
 ## On-Premise Server Details:
 Location: San Jose, CA
 
@@ -69,4 +71,4 @@ _BMC/PXE Connected to SSE-G3648B 1G Ethernet Switch_
 ```markdown
  `Code` text
 ```
-![Image](/Hybrid-Cloud-Project/img/architecture-sketch.jpeg)
+
