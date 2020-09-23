@@ -2,6 +2,8 @@
 
 This project has multiple goals: gain experience migrating from on-premise to the cloud and deploy a web application in a blue green deployment scenario. This process will use full-stack development to explore how to leverage cloud technologies in different ways while integrating best practices at each stage. This project has been divided into three parts:
 
+![Image](/-in-progress-Hybrid-Cloud-Project/img/architecture-sketch.jpeg)
+
 **Part 1: Migrate and Rehost Resources**
 
 For the first part of this project, I will be migrating an architecture on a _[Supermicro Server]_and rehost the services in the AWS environment.
@@ -19,9 +21,6 @@ This second part will focus on the front-end development of the application. _tb
 The third part of this project is to test the web app and the network, security, and functionality of the cloud architecture. The web app will be deployed in a blue environment first, where the application, and architecture security, and operation will be tested. Once that is completed, the final step in this project is to deploy the application in the green environment and ensure the architecture and web app meet the requirements.
 
 [Part 3 Details](/-in-progress-Hybrid-Cloud-Project/page4.md)
-
-
-![Image](/-in-progress-Hybrid-Cloud-Project/img/architecture-sketch.jpeg)
 
 
 ### **_Scratch Notes_**
