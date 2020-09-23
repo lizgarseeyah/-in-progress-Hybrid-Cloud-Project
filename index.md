@@ -1,38 +1,25 @@
-## Welcome to GitHub Pages
+# Hybrid Cloud Project
 
-You can use the [editor on GitHub](https://github.com/lizgarseeyah/Hybrid-Cloud-Project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The purpose of the this project is to leverage cloud resources to deploy a web application in a blue green deployment scenario. This project will explore how to leverage cloud technologies in different ways and how to apply best practices at each stage. This project has been divided into three parts:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Part 1: Migrate and Rehost on-prem servers**
+For the first part of this project, I will be migrating an architecture on a _[Supermicro Server]_and rehost the services in the AWS environment.
 
-### Markdown
+**Part 2: Web Application Development**
+This second part will focus on the front-end development of the application. _tbd_
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Part 3: Deploy the Web Application in a Blue-Green Envrionment**
+The third part of this project is to test the web app and the network, security, and functionality of the cloud architecture. The web app will be deployed in a blue environment first, where the application, and architecture security, and operation will be tested. Once that is completed, the final step in this project is to deploy the application in the green environment and ensure the architecture and web app meet the requirements.
+
+## On-Premise Server Details:
+Location: San Jose, CA
+
+Server 1:
+
+Server 2:
+
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-
+ `Code` text
 ```
 ![Image](/Hybrid-Cloud-Project/img/architecture-sketch.jpeg)
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lizgarseeyah/Hybrid-Cloud-Project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
