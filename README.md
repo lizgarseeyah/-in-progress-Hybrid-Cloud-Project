@@ -6,7 +6,7 @@ This project has multiple goals: gain experience migrating from on-premise to th
 
 **Part 1: Migrate and Rehost Resources**
 
-For the first part of this project, I will be migrating an architecture on a _[Supermicro Server]_and rehost the services in the AWS environment.
+For the first part of this project, I will be migrating an architecture on a BigTwin 2029BZ-HNR Supermicro Server and rehost the services in the AWS environment.
 
 [Part 1 Details](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/page2.md)
 
