@@ -17,7 +17,7 @@ The third part of this project is to test the web app and the network, security,
 ## On-Premise Server Details:
 Location: San Jose, CA
 
-Server 1:
+**Server 1:**
 
 BigTwin 2029BZ-HNR
 
@@ -49,10 +49,11 @@ Node D:
 - Memory: 12xDIMMs (MEM-DR416L-CL01-ER29 - 16GB RDIMM 2933)
 - Storage: 1 x SSDPE2KE032T8
 
-* All node BMCs connected to SSE-X3348T 10G Ethernet Switch
+_All node BMCs connected to SSE-X3348T 10G Ethernet Switch_
 
 ![Image](src)
-Server 2:
+
+**Server 2:**
 
 Ultra 1029U-10NRT
 
@@ -61,7 +62,7 @@ Ultra 1029U-10NRT
 - Memory: 12 x Mem-DR432L-CL01-ER29
 - Storage: HDD Seagate Exos 7E2000 1 TB
 
-* BMC/PXE Connected to SSE-G3648B 1G Ethernet Switch
+_BMC/PXE Connected to SSE-G3648B 1G Ethernet Switch_
 
 ![Image](src)
 
