@@ -74,9 +74,11 @@ Architecture Requirements:
 - Multi-AZ, load balanced, scalable
 - Prevent DDOS attacks
 
-## Step 2: Migrate
+## Step 2: Design the Cloud Architecture
 
-## Step 3: Test
+## Step 3: Migrate
+
+## Step 4: Test
 
 Scratch Notes
 
