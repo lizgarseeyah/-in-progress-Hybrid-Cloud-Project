@@ -9,7 +9,7 @@ Location: San Jose, CA
 
 **Server 1: BigTwin 2029BZ-HNR**
 
-![server1](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/server1.jpg)
+![server1](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/server1.png)
 
 Node A:
 
