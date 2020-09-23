@@ -21,7 +21,7 @@ The third part of this project is to test the web app and the network, security,
 [Part 3 Details](/-in-progress-Hybrid-Cloud-Project/page4.md)
 
 
-![Image](/Hybrid-Cloud-Project/img/architecture-sketch.jpeg)
+![Image](/-in-progress-Hybrid-Cloud-Project/img/architecture-sketch.jpeg)
 
 
 ### **_Scratch Notes_**
