@@ -58,8 +58,21 @@ _BMC/PXE Connected to SSE-G3648B 1G Ethernet Switch_
 ```
 
 ## Step 1: Prepare a Migration Plan
-- Ubuntu/RedHat
-- MySQL Server
+on-prem Requirements: Software:
+
+Ubuntu/RedHat
+MySQL Server
+Architecture Requirements:
+
+Secure connection between on-prem/cloud
+Back-up data before migration
+VPC + SG, Firewall, Monitoring alerts, NACLs
+DB, Storage regular backups in S3
+2 groups in IAM
+allow remote connections
+create a snapshot, or config template of resources
+Multi-AZ, load balanced, scalable
+Prevent DDOS attacks
 
 ## Step 2: Migrate
 
