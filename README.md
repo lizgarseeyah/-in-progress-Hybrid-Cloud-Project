@@ -22,3 +22,28 @@ The third part of this project is to test the web app and the network, security,
 
 
 ![Image](/Hybrid-Cloud-Project/img/architecture-sketch.jpeg)
+
+
+### **_Scratch Notes_**
+on-prem Requirements:
+Software:
+  - Ubuntu/RedHat
+  - MySQL Server
+
+Architecture Requirements:
+- Secure connection between on-prem/cloud
+- Back-up data before migration
+- VPC + SG, Firewall, Monitoring alerts, NACLs
+- DB, Storage regular backups in S3
+- 2 groups in IAM
+- allow remote connections
+- create a snapshot, or config template of resources
+- Multi-AZ, load balanced, scalable
+- Prevent DDOS attacks
+
+Applicatin Requirements:
+- Web app -> UI/UX Data Science-based project
+- Frameworks: React, Node?
+- Require SSO login
+- Require 2MFA
+- SEO optimized
