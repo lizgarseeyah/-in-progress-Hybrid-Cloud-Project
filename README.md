@@ -1,7 +1,5 @@
 # Hybrid-Cloud-Project
 
-# Hybrid Cloud Project
-
 The purpose of the this project is to leverage cloud resources to deploy a web application in a blue green deployment scenario. This project will explore how to leverage cloud technologies in different ways and how to apply best practices at each stage. This project has been divided into three parts:
 
 **Part 1: Migrate and Rehost on-prem servers**
