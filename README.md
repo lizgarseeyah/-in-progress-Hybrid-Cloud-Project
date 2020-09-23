@@ -25,4 +25,4 @@ Server 2:
 ```markdown
  `Code` text
 ```
-![Image](/Hybrid-Cloud-Project/img/architecture-sketch.jpeg)
+![Image](https://github.com/lizgarseeyah/Hybrid-Cloud-Project/blob/gh-pages/img/architecture-sketch.jpeg)
