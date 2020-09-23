@@ -1,4 +1,4 @@
-# Hybrid Cloud Project
+# (in-progress) Hybrid Cloud Project
 
 This project has multiple goals: gain experience migrating from on-premise to the cloud and deploy a web application in a blue green deployment scenario. This process will use full-stack development to explore how to leverage cloud technologies in different ways while integrating best practices at each stage. This project has been divided into three parts:
 
