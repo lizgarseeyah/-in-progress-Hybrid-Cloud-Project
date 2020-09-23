@@ -60,11 +60,19 @@ _BMC/PXE Connected to SSE-G3648B 1G Ethernet Switch_
  `Code` text
 ```
 
-## Step 1: Prepare a Plan
-- what to migrate?
-- What to migrate first?
-- Back-up plan?
+## Step 1: Prepare a Migration Plan
+- Ubuntu/RedHat
+- MySQL Server
 
 ## Step 2: Migrate
 
 ## Step 3: Test
+
+Scratch Notes
+
+on-prem Requirements: Software:
+
+
+
+
+
