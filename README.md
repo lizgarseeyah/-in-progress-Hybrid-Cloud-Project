@@ -1,8 +1,8 @@
-# Hybrid-Cloud-Project
+# (in-progress) Hybrid Cloud Project
 
-The purpose of the this project is to leverage cloud resources to deploy a web application in a blue green deployment scenario. This project will explore how to leverage cloud technologies in different ways and how to apply best practices at each stage. This project has been divided into three parts:
+This project has multiple goals: gain experience migrating from on-premise to the cloud and deploy a web application in a blue green deployment scenario. This process will use full-stack development to explore how to leverage cloud technologies in different ways while integrating best practices at each stage. This project has been divided into three parts:
 
-**Part 1: Migrate and Rehost on-prem servers**
+**Part 1: Migrate and Rehost Resources**
 
 For the first part of this project, I will be migrating an architecture on a _[Supermicro Server]_and rehost the services in the AWS environment.
 
@@ -19,10 +19,53 @@ Location: San Jose, CA
 
 Server 1:
 
+BigTwin 2029BZ-HNR
+
+Node A:
+
+- OS: Ubuntu 18.04
+- CPU: 2 x Intel(r) Xeon(r) Platinum 8276M CPU @ 2.20GHz
+- Memory: 24xDIMMs (MEM-DR432L-CL01-ER29 - 16GB RDIMM 2933)
+- Storage: 1 x SSDPE2KE032T8
+
+Node B:
+
+- OS: Ubuntu 18.04
+- CPU: 2 x Intel(r) Xeon(r) Platinum 8276L CPU @ 2.20GHz
+- Memory: 16xDIMMs (MEM-DR416L-CL01-ER29 - 16GB RDIMM 2933)
+- Storage: 1 x SSDPE2KE032T8
+
+Node C:
+
+- OS: Red Hat 7.6
+- CPU: 2 x CLX (24 cores) -> P4X-SMPMPQRC2-001 QS SMP QRC2/B0 CLX-SRV 8260L 24C 2.4G 35.75M FC-LGA14B 165W
+- Memory: 12xDIMMs (MEM-DR432L-CL01-ER29 - 16GB RDIMM 2933)
+- Storage: 1 x SSDPE2KE032T8
+
+Node D:
+
+- OS: Red Hat 7.6
+- CPU: 2 x Intel(r) Xeon(r) Gold 5215L CPU @ 2.50GHz
+- Memory: 12xDIMMs (MEM-DR416L-CL01-ER29 - 16GB RDIMM 2933)
+- Storage: 1 x SSDPE2KE032T8
+
+* All node BMCs connected to SSE-X3348T 10G Ethernet Switch
+
+![Image](src)
 Server 2:
 
+Ultra 1029U-10NRT
+
+- OS: Ubuntu 18.04
+- CPU: 2 x Intel(r) Xeon(r) Platinum 8276 CPU @ 2.20GHz
+- Memory: 12 x Mem-DR432L-CL01-ER29
+- Storage: HDD Seagate Exos 7E2000 1 TB
+
+* BMC/PXE Connected to SSE-G3648B 1G Ethernet Switch
+
+![Image](src)
 
 ```markdown
  `Code` text
 ```
-![Image](https://github.com/lizgarseeyah/Hybrid-Cloud-Project/blob/gh-pages/img/architecture-sketch.jpeg)
+![Image](/Hybrid-Cloud-Project/img/architecture-sketch.jpeg)
