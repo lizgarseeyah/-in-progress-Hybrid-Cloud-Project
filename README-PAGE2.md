@@ -58,11 +58,13 @@ _BMC/PXE Connected to SSE-G3648B 1G Ethernet Switch_
 ```
 
 ## Step 1: Prepare a Migration Plan
-on-prem Requirements: Software:
+- Identify critical pieces and dependencies
+- Identify what to migrate first
+- create a backup plan
+- create a test plan
+- create a checklist
 
-Ubuntu/RedHat
-MySQL Server
-
+## Step 2: Design the Cloud Architecture
 Architecture Requirements:
 - Secure connection between on-prem/cloud
 - Back-up data before migration
@@ -73,8 +75,6 @@ Architecture Requirements:
 - create a snapshot, or config template of resources
 - Multi-AZ, load balanced, scalable
 - Prevent DDOS attacks
-
-## Step 2: Design the Cloud Architecture
 
 ## Step 3: Migrate
 
