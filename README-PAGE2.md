@@ -73,18 +73,25 @@ AR: Create migration plan/checklist
 
 The architecture above was designed to meet the following requirements:
 
-1. High-availability - Database read replicas, multi-availability zone database, scalable, load balancer, cloud delivery network (CDN). A warm standby or multi-region active site can be added to the second region, to reduce RPO times, but it is a more costly option.
+**High-Availability and Fault Tolerant:** 
 
-2. Resilient (Failure and Disaster Recovery) - AMI snapshots, database backups, multi-region storage backups, multi-region architecture
+A highly available and fault tolerant architecture is recommended for scenarios or mission critical applications where situations, such as power outages and spikes, would cause the system's performance to dip. The architecture must meet high demand while remaining in operation in case of component failure. Both design attributes go hand in hand. 
 
-3. Secure - Virtual Private Cloud (Security Groups, Network Access Control Lists (NACLs), Virtual Private Gateway), user management, strong password requirements, multi-factor authentication, VPN, server-side/client-side encryption, SSL/TLS, firewall, monitoring, logs
+Components:
+- Multi-AZ Database w/ read replicas and scheduled backups
+- Autoscaling Groups
+- Load Balancer
+- Content Delivery Network (CDN)
+- A warm standby or multi-region active site can be added to the second region, to reduce RPO times, but it is a more costly option.
+
+**Cost-Effective Failure and Disaster Recovery (DR) Plan:**
+
+Since we are assuming a non-mission critical scenario, a cost-effective DR plant would be to spin up an new architecture in a different, existing region using the replicated storage located in that region. This repository would contain the AMI snapshots, database backups, and storage backups to recreate our original architecture. 
+
+**Secure**
+
+This architecture was secured using a virtual private cloud (VPC) along with security groups, Network Access Control Lists (NACLs), and a Virtual Private Gateway to restrict incoming and outgoing traffic. Futhermore, setting up users with the appropriate access, employing strong password requirements, and use of multi-factor authentication adds an additional layer of security. Adding a load balancer and firewall protect against DDoS attacks. Additional elements used: SSL/TLS protocol to secure the web app and server-side and client-side encryption to protect data at rest.
 
 ## Migrate
 
 ## Test
-
-
-
-
-
-
