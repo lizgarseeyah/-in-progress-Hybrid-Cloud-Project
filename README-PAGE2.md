@@ -79,9 +79,9 @@ The architecture above was designed to meet the following requirements:
 
 3. Secure - Virtual Private Cloud (Security Groups, Network Access Control Lists (NACLs), Virtual Private Gateway), user management, strong password requirements, multi-factor authentication, VPN, server-side/client-side encryption, SSL/TLS, firewall, monitoring, logs
 
-## Step 3: Migrate
+## Migrate
 
-## Step 4: Test
+## Test
 
 
 
