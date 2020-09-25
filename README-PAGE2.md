@@ -86,7 +86,7 @@ Components:
 
 **Cost-Effective Failure and Disaster Recovery (DR) Plan:**
 
-Since we are assuming a non-mission critical scenario, a cost-effective DR plant would be to spin up an new architecture in a different, existing region using the replicated storage located in that region, i.e. the backup and restore method. This repository would contain the AMI snapshots, database backups, and storage backups to recreate our original architecture. 
+Since we are assuming a non-mission critical scenario, a cost-effective DR plant would be to spin up an new architecture in a different, existing region using the replicated storage located in that region, i.e. the backup and restore method. This repository would contain the AMI snapshots, configuration templates, database backups, and storage backups to recreate our original architecture. 
 
 **Secure**
 
