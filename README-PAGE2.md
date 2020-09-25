@@ -1,6 +1,6 @@
 # Part 1: On-Prem to Cloud Migration
 
-The first part will focus on migrating resources to the cloud. Here are a few images of the on-prem location and the servers that will be used:
+The first part will focus on migrating resources to the cloud. Below are details about the systems used in this part.
 
 ## On-Premise Server Details:
 Location: San Jose, CA
@@ -57,32 +57,32 @@ _BMC/PXE Connected to SSE-G3648B 1G Ethernet Switch_
  `Code` text
 ```
 
-## Step 1: Prepare a Migration Plan
+## Prepare a Migration Plan
+
+AR: Create migration plan/checklist
+
 - Identify critical pieces and dependencies
 - Identify what to migrate first
 - create a backup plan
 - create a test plan
 - create a checklist
 
-## Step 2: Design the Cloud Architecture
-Architecture Requirements:
-- Secure connection between on-prem/cloud
-- Back-up data before migration
-- VPC + SG, Firewall, Monitoring alerts, NACLs
-- DB, Storage regular backups in S3
-- 2 groups in IAM
-- allow remote connections
-- create a snapshot, or config template of resources
-- Multi-AZ, load balanced, scalable
-- Prevent DDOS attacks
+## Design the Cloud Architecture
+
+![highlevel-arch](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/architecture-sketch.jpeg)
+
+The architecture above was designed to meet the following requirements:
+
+1. High-availability - Database read replicas, multi-availability zone database, scalable, load balancer, cloud delivery network (CDN). A warm standby or multi-region active site can be added to the second region, to reduce RPO times, but it is a more costly option.
+
+2. Resilient (Failure and Disaster Recovery) - AMI snapshots, database backups, multi-region storage backups, multi-region architecture
+
+3. Secure - Virtual Private Cloud (Security Groups, Network Access Control Lists (NACLs), Virtual Private Gateway), user management, strong password requirements, multi-factor authentication, VPN, server-side/client-side encryption, SSL/TLS, firewall, monitoring, logs
 
 ## Step 3: Migrate
 
 ## Step 4: Test
 
-Scratch Notes
-
-on-prem Requirements: Software:
 
 
 
