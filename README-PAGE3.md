@@ -1,6 +1,6 @@
 **Problem Statement:** This program aims at analyzing Covid-19 data and how it impacts our economy.
 
-## Back-end
+## Python Program
 
 **Application Functionality:**
 - Fetch data from data source (html)
@@ -12,7 +12,7 @@
 - Secure data at rest and in transit
 - Use functions 
 
-## Front-end
+## Web Application
 
 The web application is designed to display the COVID data that was processed and analyzed in the previous step. Javascript, HTML, CSS, and React was used in the creation of this app.
 
