@@ -4,6 +4,8 @@ This project has multiple goals: gain experience migrating from on-premise to th
 
 ![highlevel-arch](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/architecture-sketch.jpeg)
 
+**_reorder_**
+
 **Part 1: Migrate to the Cloud** _(due Thur, 10/1)_
 
 For the first part of this project, I will be migrating an architecture on a BigTwin 2029BZ-HNR Supermicro Server and rehost the services in the AWS environment.
