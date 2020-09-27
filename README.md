@@ -2,10 +2,9 @@
 
 This project has multiple goals: gain experience migrating from on-premise to the cloud and deploy a web application in a blue green deployment scenario. It will also demonstrate how to leverage cloud technologies using best practices at each level. This project has been divided into three parts:
 
-- ![#f03c15](modify schematic to include automation/microservices components (i.e. lambda function)) ``
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) ``
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ``
-
+```diff
+- Modify schematic to include automation/microservices componenet
+```
 ![highlevel-arch](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/architecture-sketch.jpeg)
 
 **_reorder_**
@@ -30,3 +29,10 @@ The third part of this project is to test the web app and the network, security,
 
 **File Description:**
 
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
