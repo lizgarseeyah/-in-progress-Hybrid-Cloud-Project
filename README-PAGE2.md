@@ -67,6 +67,15 @@ AR: Create migration plan/checklist
 - create a test plan
 - create a checklist
 
+_don't forget to_:
+- automate scheduled backups
+- Setup cloud watch
+- Setup up cloud logs
+- setup up firewall
+- configure SSO
+- SSL and encrypt info
+
+
 ## Design the Cloud Architecture
 
 ![highlevel-arch](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/architecture-sketch.jpeg)
@@ -95,3 +104,17 @@ This architecture was secured using a virtual private cloud (VPC) along with sec
 ## Migrate
 
 ## Test
+
+test scenarios:
+
+- high traffic
+- DDoS
+- SSO functionality
+- Website and python program functionality
+- can i access: storage and website?
+- Migration process
+- Blue-Green process
+- log automation (lambda function)
+
+
+
