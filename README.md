@@ -2,7 +2,7 @@
 
 This project has multiple goals: gain experience migrating from on-premise to the cloud and deploy a web application in a blue green deployment scenario. It will also demonstrate how to leverage cloud technologies using best practices at each level. This project has been divided into three parts:
 
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `modify schematic to include automation/microservices components (i.e. lambda function)`
+- ![#f03c15](modify schematic to include automation/microservices components (i.e. lambda function)) ``
 - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) ``
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ``
 
