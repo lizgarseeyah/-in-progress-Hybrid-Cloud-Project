@@ -1,6 +1,6 @@
 **Problem Statement:** This program aims at analyzing Covid-19 data.
 
-![Front-Page](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/%20web_app_update.png)
+![Front-Page](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/web_app_update.png)
 
 ## Python Program
 
