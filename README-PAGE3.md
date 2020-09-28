@@ -1,5 +1,7 @@
 **Problem Statement:** This program aims at analyzing Covid-19 data and how it impacts our economy.
 
+![Front-Page](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/%20web_app_update.png)
+
 ## Python Program
 
 **Application Functionality:**
