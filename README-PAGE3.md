@@ -6,10 +6,6 @@ The python program calculates the number of U.S. confirmed cases, U.S. deaths, a
 
 ![Front-Page](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/web_app_update.png)
 
-**Requirements:**
-- Secure data at rest and in transit
-- Use functions 
-
 ## Web Application
 
 The web application is designed to display the COVID data that was processed and analyzed in the previous step. Javascript, HTML, CSS, and React was used in the creation of this app.
