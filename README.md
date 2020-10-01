@@ -9,20 +9,19 @@ This project has multiple goals: gain experience migrating from on-premise to th
 
 **Part 1: Web Application and Python Program** _(Done)_
 
-This second part will focus on the front-end development of the application. _tbd_
-
+The first part of this program uses a python program to analyze Covid-19 data and renders the output to a dynamic web page.
 [Part 2 Details](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/README-PAGE3.md)
+
+![Front-Page](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/web_app_update.png)
+
 **Part 2: Migrate to the Cloud** _(10/3)_
 
-For the first part of this project, I will be migrating an architecture on a BigTwin 2029BZ-HNR Supermicro Server and rehost the services in the AWS environment.
-
+The goal in part 2 is to migrate the resources in part 1, which is hosted on a BigTwin 2029BZ-HNR Supermicro Server located in San Jose, to rehost this solution in the cloud.
 [Part 1 Details](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/README-PAGE2.md)
-
-
 
 **Part 3: Deploy the Web Application in a Blue-Green Envrionment** _(10/3)_
 
-The third part of this project is to test the web app and the network, security, and functionality of the cloud architecture. The web app will be deployed in a blue environment first, where the application, and architecture security, and operation will be tested. Once that is completed, the final step in this project is to deploy the application in the green environment and ensure the architecture and web app meet the requirements.
+The third part of this project is to test the functionality of the web app and cloud architecture. The web app will be deployed to a test server (blue environment) first, where the applicaton and architecture will be tested. Once that is completed, the final step in this part is to deploy the application to the production server (green environment).
 
 [Part 3 Details](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/README-PAGE4.md)
 
