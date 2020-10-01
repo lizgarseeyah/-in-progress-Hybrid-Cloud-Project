@@ -7,14 +7,16 @@ This project has multiple goals: gain experience migrating from on-premise to th
 **Part 1: Web Application and Python Program** _(Done)_
 
 The first part of this program uses a python program to analyze Covid-19 data and renders the output to a dynamic web page.
-[Part 2 Details](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/README-PAGE3.md)
+
+[Part 1 Details](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/README-PAGE3.md)
 
 ![Front-Page](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/web_app_update.png)
 
 **Part 2: Migrate to the Cloud** _(10/3, complete cloud architecture by Friday 10,2)_
 
 The goal in part 2 is to migrate the resources in part 1, which is hosted on a BigTwin 2029BZ-HNR Supermicro Server located in San Jose, to rehost this solution in the cloud.
-[Part 1 Details](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/README-PAGE2.md)
+
+[Part 2 Details](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/README-PAGE2.md)
 
 **Part 3: Deploy the Web Application in a Blue-Green Envrionment** _(10/3)_
 
