@@ -1,18 +1,14 @@
-**Summary Statement:** This program aims at analyzing Covid-19 data from the link below.
-
-
+**Summary Statement:** This program aims at analyzing Covid-19 data and rendering the output to a dynamic web page:
 
 ![Front-Page](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/web_app_update.png)
 
 ## Web Application
 
-The web application is designed to display the COVID data that was processed and analyzed in the previous step. Javascript, HTML, CSS, and React was used in the creation of this app.
-
-Packages Used:
-Bootstrap 4.2
-FusionCharts
-FusionMaps
-FusionCharts React
+- Packages Used:
+- Bootstrap 4.2
+- FusionCharts
+- FusionMaps
+- FusionCharts React
 
 **Step 1: Environment setup**
 
