@@ -101,6 +101,10 @@ Since we are assuming a non-mission critical scenario, a cost-effective DR plant
 
 This architecture was secured using a virtual private cloud (VPC) along with security groups, Network Access Control Lists (NACLs), and a Virtual Private Gateway to restrict incoming and outgoing traffic. Futhermore, setting up users with the appropriate access, employing strong password requirements, and use of multi-factor authentication adds an additional layer of security. Adding a load balancer and firewall protect against DDoS attacks. Additional elements used: SSL/TLS protocol to secure the web app and server-side and client-side encryption to protect data at rest.
 
+The steps taken to create the cloud architecture is defined below:
+
+![cloud-arch-steps](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/cloud_arch.jpg)
+
 ## Migrate
 
 ## Test
