@@ -56,9 +56,9 @@ After building each section, the dynamic web application now displays daily covi
 
 `@app.route('/', methods=['POST'])`
 
- `def print_m():
+ `def print_m():`
  
-    flask.render_template('confirmed.html', confirmed=confirmed)
+    flask.render_template("confirmed.html", confirmed=confirmed)
     
     return jsonify(confirmed)`
 
