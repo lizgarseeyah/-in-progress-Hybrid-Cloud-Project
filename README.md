@@ -14,7 +14,7 @@ The first part of this program uses a python program to analyze Covid-19 data an
 
 **Part 2: Migrate to the Cloud** _(10/3, complete cloud architecture by Friday 10,2)_
 
-The goal in part 2 is to migrate the resources in part 1, which is hosted on a BigTwin 2029BZ-HNR Supermicro Server located in San Jose, to rehost this solution in the cloud.
+The goal in part 2 is to migrate the resources in part 1, which is hosted on a BigTwin 2029BZ-HNR Supermicro Server located in San Jose, to the cloud.
 
 [Part 2 Details](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/README-PAGE2.md)
 
