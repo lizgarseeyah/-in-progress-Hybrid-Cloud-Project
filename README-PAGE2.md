@@ -51,30 +51,9 @@ _All node BMCs connected to SSE-X3348T 10G Ethernet Switch_
 - Storage: HDD Seagate Exos 7E2000 1 TB
 
 _BMC/PXE Connected to SSE-G3648B 1G Ethernet Switch_
-
-
 ```markdown
  `Code` text
 ```
-
-## Prepare a Migration Plan
-
-AR: Create migration plan/checklist
-
-- Identify critical pieces and dependencies
-- Identify what to migrate first
-- create a backup plan
-- create a test plan
-- create a checklist
-
-_don't forget to_:
-- automate scheduled backups
-- Setup cloud watch
-- Setup up cloud logs
-- setup up firewall
-- configure SSO
-- SSL and encrypt info
-
 
 ## Design the Cloud Architecture
 
@@ -106,6 +85,25 @@ The steps taken to create the cloud architecture is defined below:
 ![cloud-arch-steps](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/cloud_arch.png)
 
 ## Migrate
+
+### Prepare a Migration Plan
+
+AR: Create migration plan/checklist
+
+- Identify critical pieces and dependencies
+- Identify what to migrate first
+- create a backup plan
+- create a test plan
+- create a checklist
+
+_don't forget to_:
+- automate scheduled backups
+- Setup cloud watch
+- Setup up cloud logs
+- setup up firewall
+- configure SSO
+- SSL and encrypt info
+
 
 ## Test
 
