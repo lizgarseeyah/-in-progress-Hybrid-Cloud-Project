@@ -1,14 +1,10 @@
-**Problem Statement:** This program aims at analyzing Covid-19 data.
+**Problem Statement:** This program aims at analyzing Covid-19 data from the link below.
+
+https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/
+
+The python program calculates the number of U.S. confirmed cases, U.S. deaths, and U.S. recovered to date. The python program uses a framework called Flask and Jinja2 to send this data via APIs and render these calculations to be displayed on the html dashboard. 
 
 ![Front-Page](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/web_app_update.png)
-
-## Python Program
-
-**Application Functionality:**
-- Fetch data from data source (html)
-- Import, clean, and preprocess the data
-- Identify and apply best models (ensemble method)
-- Feature Extraction and optimize data
 
 **Requirements:**
 - Secure data at rest and in transit
@@ -48,14 +44,17 @@ Step 3: Building the dashboard layout
 
 Import Boostrap into index.js so that it can be used to build the layout:
 import "bootstrap/dist/css/bootstrap.css";
-The application is divided into 5 parts:
-Navigation Section
-Query Section
-Basic Daily and Total Metric
-Charts Section
-Login
 
-**Application Requirements**
-- Require sign-on
+The application is divided into 5 parts:
+
+- Navigation Section
+- Charts
+- COVID-19 Metrics
+- Charts Section
+- Login (next version)
+- Search Button
+
+After building each section, the dynamic web application now displays daily covid data analyzed by python.  
+**Next version updates:**
+- Enable single sign-on
 - Require 2MFA
-- Frameworks: React?
