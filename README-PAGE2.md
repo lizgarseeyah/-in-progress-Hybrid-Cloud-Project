@@ -65,7 +65,7 @@ The architecture above was designed to meet the following requirements:
 
 A highly available and fault tolerant architecture is recommended for scenarios or mission critical applications where situations, such as power outages and spikes, would cause the system's performance to dip. The architecture must meet high demand while remaining in operation in case of component failure. Both design attributes go hand in hand. 
 
-Components:
+**Components:**
 - Multi-AZ Database w/ read replicas and scheduled backups
 - Autoscaling Groups
 - Load Balancer
