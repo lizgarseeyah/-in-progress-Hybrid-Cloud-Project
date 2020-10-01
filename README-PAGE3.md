@@ -1,4 +1,4 @@
-**Problem Statement:** This program aims at analyzing Covid-19 data from the link below.
+**Summary Statement:** This program aims at analyzing Covid-19 data from the link below.
 
 https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/
 
