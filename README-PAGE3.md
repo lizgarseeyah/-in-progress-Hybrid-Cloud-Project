@@ -54,9 +54,9 @@ The application is divided into 5 parts:
 
 After building each section, the dynamic web application now displays daily covid data analyzed by python. The following code snippet below shows how to integrate Flask into the python program in order to send the data.
 
-`@app.route('/', methods=['POST'])`
+`@app.route('/', methods=['POST'])
 
-`def print_m():`
+ def print_m():`
 
     `flask.render_template('confirmed.html', confirmed=confirmed)`
     
