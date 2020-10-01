@@ -2,7 +2,7 @@
 
 https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/
 
-The python program calculates the number of U.S. confirmed cases, U.S. deaths, and U.S. recovered to date. The python program uses a framework called Flask and Jinja2 to send this data via APIs and render these calculations to be displayed on the html dashboard. 
+The python program calculates the number of U.S. confirmed cases, U.S. deaths, and number of U.S. recovered cases to date. The python program uses a framework called Flask and Jinja2 to send this data via APIs and render these calculations to be displayed on this HTML dashboard: 
 
 ![Front-Page](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/web_app_update.png)
 
