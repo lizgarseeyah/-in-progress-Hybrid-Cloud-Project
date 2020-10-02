@@ -92,8 +92,8 @@ Step 2: Create 2 subnets, 1 per zone
 
 VPC was setup to have a CIDR block of 10.0.0.0/24 for a total of 256 IP addresses across 2 zones, which means we need to setup 2 subnets each supporting 128 IP addresses:
 
-Subnet1 CIDR Block: 10.0.0.0/25 (10.0.0.0-10.0.0.127)
-Subnet2 CIDR Block: 10.0.0.128/25 (10.0.0.128-10.0.0.255)
+- Subnet1 CIDR Block: 10.0.0.0/25 (10.0.0.0-10.0.0.127)
+- Subnet2 CIDR Block: 10.0.0.128/25 (10.0.0.128-10.0.0.255)
 
 **Step 3:** Create and attach an internet gateway to the VPC. 
 
