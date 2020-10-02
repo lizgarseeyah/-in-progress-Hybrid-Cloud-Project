@@ -127,14 +127,14 @@ Outbound:
 | *      | All Traffic |   All    |    All     | 0.0.0.0/0    |   Deny     | Denies all outbound IPv4 traffic not already handled by a preceding rule (not modifiable).
 
 
-_Next Steps:
+
+Next Steps:
 VMs,
 databases, 
 storage, 
 load balancers, 
 autoscaling group, 
 cloud watch automated back ups 
------
 CDN_
 
 ## Migrate
