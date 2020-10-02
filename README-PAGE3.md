@@ -38,7 +38,7 @@ The main_covid.ipynb(.py) python program calculates the number of U.S. confirmed
 
 **Step 3: Building the dashboard layout**
 
-Import Boostrap into index.js so that it can be used to build the layout:
+Import Boostrap into index.index so that it can be used to build the layout:
 import "bootstrap/dist/css/bootstrap.css";
 
 The application is divided into 5 parts:
