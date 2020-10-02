@@ -57,7 +57,7 @@ _BMC/PXE Connected to SSE-G3648B 1G Ethernet Switch_
 
 ## Design the Cloud Architecture
 
-![highlevel-arch](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/architecture-sketch.jpeg)
+![highlevel-arch](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/architecture-sketch.png)
 
 The architecture above was designed to meet the following requirements:
 
@@ -80,9 +80,62 @@ Since we are assuming a non-mission critical scenario, a cost-effective DR plant
 
 This architecture was secured using a virtual private cloud (VPC) along with security groups, Network Access Control Lists (NACLs), and a Virtual Private Gateway to restrict incoming and outgoing traffic. Futhermore, setting up users with the appropriate access, employing strong password requirements, and use of multi-factor authentication adds an additional layer of security. Adding a load balancer and firewall protect against DDoS attacks. Additional elements used: SSL/TLS protocol to secure the web app and server-side and client-side encryption to protect data at rest.
 
-The steps taken to create the cloud architecture is defined below:
+The steps taken to create the cloud architecture are defined below:
 
-![cloud-arch-steps](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/cloud_arch.png)
+![cloud-arch-steps](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/checklist.png)
+
+**Setup up Networking Infrastructure:**
+
+Step 1: Create a VPC
+
+Step 2: Create 2 subnets, 1 per zone
+
+VPC was setup to have a CIDR block of 10.0.0.0/24 for a total of 256 IP addresses across 2 zones, which means we need to setup 2 subnets each supporting 128 IP addresses:
+
+Subnet1 CIDR Block: 10.0.0.0/25 (10.0.0.0-10.0.0.127)
+Subnet2 CIDR Block: 10.0.0.128/25 (10.0.0.128-10.0.0.255)
+
+**Step 3:** Create and attach an internet gateway to the VPC. 
+
+**Step 4:** Create and Route Tables to each zone.
+
+**Step 5:** Create and attach security groups to each NACL.
+
+**Step 6:** Add and attach 2 VMs + Block Storage, 1 per zone:
+
+VM details:
+Amazon Linux 2 AMI (HVM), SSD Volume Type - ami-0947d2ba12ee1ff75 (64-bit x86)
+Amazon Linux 2 comes with five years support. It provides Linux kernel 4.14 tuned for optimal performance on Amazon EC2, systemd 219, GCC 7.3, Glibc 2.26, Binutils 2.29.1, and the latest software packages through extra - t2.micro 
+
+**Step ???:** Configure NACLs, SGs, Route Tables to enable internet traffic and ssh capabilities.
+https://aws.amazon.com/premiumsupport/knowledge-center/vpc-connect-instance/
+https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html
+
+Inbound:
+| Rule # | Type        | Protocol | Port Range | Source       | Allow/Deny | Comments                               |
+| ------ | ----------  | -------- | ---------- | ---------    | ---------- | ---------------------------------------
+| 100    | HTTP        |   TCP    |    80      | 0.0.0.0/0    |   Allow    | Allows inbound HTTP traffic from any IPv4 address.                                                
+| 110    | HTTPS       |   TCP    |    443     | 0.0.0.0/0    |   Allow    | Allows inbound HTTPS traffic from any IPv4 address.
+| 120    | SSH         |   TCP    |    22      | 192.0.2.0/24 |   Allow    | Allows inbound SSH traffic from your home network's public IPv4 address range (over the internet gateway).
+| *      | All Traffic |   All    |    All     | 0.0.0.0/0    |   Deny     | Denies all inbound IPv4 traffic not already handled by a preceding rule (not modifiable).
+
+Outbound:
+| Rule # | Type        | Protocol | Port Range | Source       | Allow/Deny | Comments                               |
+| ------ | ----------  | -------- | ---------- | ---------    | ---------- | ---------------------------------------
+| 100    | HTTP        |   TCP    |    80      | 0.0.0.0/0    |   Allow    | Allows outbound IPv4 HTTP traffic from the subnet to the internet.                                                
+| 110    | HTTPS       |   TCP    |    443     | 0.0.0.0/0    |   Allow    | Allows outbound IPv4 HTTPS traffic from the subnet to the internet.
+| *      | All Traffic |   All    |    All     | 0.0.0.0/0    |   Deny     | Denies all outbound IPv4 traffic not already handled by a preceding rule (not modifiable).
+
+
+_Next Steps:
+VMs,
+databases, 
+storage, 
+load balancers, 
+autoscaling group, 
+cloud watch automated back ups 
+-----
+CDN_
 
 ## Migrate
 
