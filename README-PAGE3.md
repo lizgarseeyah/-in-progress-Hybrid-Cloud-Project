@@ -9,6 +9,8 @@
 - FusionCharts
 - FusionMaps
 - FusionCharts React
+- Flask
+- Jinja
 
 **Step 1: Environment setup**
 
