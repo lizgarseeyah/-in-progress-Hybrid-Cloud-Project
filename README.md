@@ -2,7 +2,7 @@
 
 This project has multiple goals: gain experience migrating from on-premise to the cloud and deploy a web application in a blue green deployment scenario. It will also demonstrate how to leverage cloud technologies using best practices at each level. This project has been divided into three parts:
 
-![highlevel-arch](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/architecture-sketch.jpeg)
+![highlevel-arch](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/architecture-sketch.png)
 
 **Part 1: Web Application and Python Program** _(Done)_
 
