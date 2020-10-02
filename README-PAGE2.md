@@ -82,7 +82,7 @@ This architecture was secured using a virtual private cloud (VPC) along with sec
 
 The steps taken to create the cloud architecture are defined below:
 
-![cloud-arch-steps](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/checklist.png)
+![cloud-arch-steps](https://github.com/lizgarseeyah/-in-progress-Hybrid-Cloud-Project/blob/master/img/checklist.png)
 
 **Setup up Networking Infrastructure:**
 
