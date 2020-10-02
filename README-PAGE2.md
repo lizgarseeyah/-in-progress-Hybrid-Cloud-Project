@@ -97,7 +97,7 @@ VPC was setup to have a CIDR block of 10.0.0.0/24 for a total of 256 IP addresse
 
 **Step 3:** Create and attach an internet gateway to the VPC. 
 
-**Step 4:** Create and Route Tables to each zone.
+**Step 4:** Create an additonal Route Table so we have 1 per zone.
 
 **Step 5:** Create and attach security groups to each NACL.
 
